@@ -1,0 +1,214 @@
+/* Universal styles */
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* Hero styles */
+.hero {
+    background-image: url("images/odam.png");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+/* Header */
+header {
+    padding: 20px 0;
+}
+
+header .logo {
+    height: 40px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: #F57520;
+}
+
+/* Intro styles */
+
+.intro .container {
+    display: flex;
+    align-items: center;
+    height: 90%;
+}
+
+.intro .content {
+    width: 50px;
+}
+
+.intro h1 {
+    color: white;
+    font-size: 62px;
+    margin: 0;
+}
+
+.intro p {
+    color: white;
+    line-height: 25px;
+    margin: 40px 0;
+}
+
+.intro .container div {
+    width: 50%;
+}
+
+.intro a {
+    background-color: #F57520;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 12px;
+}
+
+/* Katalog styles */
+
+.katalog {
+    background-color: #777777;
+    padding-top: 70px;
+}
+
+.katalog h2 {
+    margin-top: 0;
+    font-size: 42px;
+    text-align: center;
+}
+
+.katalog .top {
+    margin-bottom: 15px;
+}
+
+.katalog .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.katalog .left {
+    width: 30%;
+}
+
+.katalog .right {
+    width: 69%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.katalog .right img {
+    width: 49%;
+    margin-bottom: 15px;
+    height: 205px;
+}
+
+.katalog img {
+    width: 100%;
+}
+
+.katalog .left img {
+    height: 430px;
+}
+
+.katalog .right div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Трасса */
+.trassa {
+    background-color: #777777;
+}
+.trassa h2 {
+    color: black;
+    text-align: center;
+    font-size: 42px;
+    margin-top: 0;
+    padding-top: 60px;
+} 
+
+.trassa .top {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.trassa .top div {
+    width: 32%;
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.trassa .top img {
+    width: 100%;
+
+} 
+
+.trassa .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.trassa .bottom img {
+    width: 100%;
+}
+
+.trassa .bottom div {
+    width: 32%;
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.trassa h4 {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.trassa p {
+    font-size: 12px;
+    margin-left: 15px;
+    line-height: 25px;
+}
+
+.trassa .top div:hover {
+    background-color: #F57520;
+}
+
+.trassa .bottom div:hover {
+    background-color: #F57520;
+}
+
+.form img {
+     width: 2300px;
+     height: 500px;
+}
